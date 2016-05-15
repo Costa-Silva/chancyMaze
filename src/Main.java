@@ -20,7 +20,7 @@ public class Main {
             int exit = nRoomsAndCorridors[0]-1;
 
             int numberofcorridors = nRoomsAndCorridors[1];
-            ChancyMaze cM = new ChancyMaze(entrance,exit,numberofcorridors);
+            chancyMaze cM = new chancyMaze(entrance,exit,numberofcorridors);
 
             for (int i =0;i<nRoomsAndCorridors[1];i++){
                 String[] corridor =in.readLine().trim().split("\\s+");
